@@ -20,7 +20,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@repo/ui':
+      '@langchainos/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -36,13 +36,13 @@ importers:
       '@next/eslint-plugin-next':
         specifier: ^14.2.3
         version: 14.2.3
-      '@repo/eslint-config':
+      '@langchainos/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config-eslint
-      '@repo/tailwind-config':
+      '@langchainos/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/config-tailwind
-      '@repo/typescript-config':
+      '@langchainos/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config-typescript
       '@types/node':
@@ -69,7 +69,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@repo/ui':
+      '@langchainos/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -85,13 +85,13 @@ importers:
       '@next/eslint-plugin-next':
         specifier: ^14.2.3
         version: 14.2.3
-      '@repo/eslint-config':
+      '@langchainos/eslint-config':
         specifier: workspace:*
         version: link:../../packages/config-eslint
-      '@repo/tailwind-config':
+      '@langchainos/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/config-tailwind
-      '@repo/typescript-config':
+      '@langchainos/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config-typescript
       '@types/node':
@@ -127,7 +127,7 @@ importers:
 
   packages/config-tailwind:
     devDependencies:
-      '@repo/typescript-config':
+      '@langchainos/typescript-config':
         specifier: workspace:*
         version: link:../config-typescript
       tailwindcss:
@@ -142,13 +142,13 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
     devDependencies:
-      '@repo/eslint-config':
+      '@langchainos/eslint-config':
         specifier: workspace:*
         version: link:../config-eslint
-      '@repo/tailwind-config':
+      '@langchainos/tailwind-config':
         specifier: workspace:*
         version: link:../config-tailwind
-      '@repo/typescript-config':
+      '@langchainos/typescript-config':
         specifier: workspace:*
         version: link:../config-typescript
       '@types/react':
